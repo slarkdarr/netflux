@@ -66,7 +66,6 @@ export default {
       result.data.results.forEach((movie) => {
         this.movies.push(movie)
       })
-      console.log(this.movies)
     },
   },
 }
